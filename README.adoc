@@ -7,7 +7,6 @@
 O Sistema de Gerenciamento de Biblioteca foi desenvolvido para facilitar o processo de empréstimo, devolução e gerenciamento de livros em uma biblioteca. Através da aplicação, é possível gerenciar empréstimos de livros, disponibilidade de exemplares, cadastro de usuários e gerar relatórios de atividades. O sistema visa melhorar a experiência do usuário e otimizar a administração da biblioteca, garantindo uma gestão eficiente e eficaz.
 
 == 🚀 Recursos
-O TaskFlow oferece uma variedade de recursos para facilitar o gerenciamento de tarefas:
 
 * ✅ **Cadastro e gerenciamento de livros** com informações detalhadas (título, autor, ISBN, etc.).
 * 🔔 **Criação e modificação de empréstimos** de livros, com opções de data de empréstimo e devolução.
@@ -17,14 +16,15 @@ O TaskFlow oferece uma variedade de recursos para facilitar o gerenciamento de t
 * 💻 **Sistema de login e autenticação** para administradores e usuários.
 
 == 📦 Tecnologias Utilizadas
-O TaskFlow foi desenvolvido utilizando as seguintes tecnologias:
 
 === ☕ Frontend
-* **Angular**: Framework principal para desenvolvimento rápido e eficiente.
-* 🏛 **JPA / Hibernate**: Para persistência de dados e mapeamento objeto-relacional.
-* 🗄 **H2 Database**: Banco de dados em memória, ideal para desenvolvimento e testes.
-* 🔐 **Spring Security**: Para autenticação e autorização de usuários.
-* 🌐 **Swagger**: Para documentação automática da API REST.
+* **Angular**: Framework utilizado para o desenvolvimento da interface de usuário, permitindo uma aplicação interativa e responsiva.
+=== 🏛 Backend
+* **Spring Boot (Java)**: Framework utilizado para o desenvolvimento da API, que gerencia os empréstimos, os livros e os usuários.
+=== 🗄 Banco de Dados
+* **MySQL**: Banco de dados relacional utilizado para armazenar informações sobre empréstimos, usuários e livros.
+=== 🔐 Autenticação
+* **JWT (JSON Web Tokens)**: Utilizado para garantir a segurança no processo de autenticação e autorização de usuários.
 
 == 🎮 Como Executar
 Siga os passos abaixo para executar o projeto em sua máquina local:

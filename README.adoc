@@ -18,13 +18,16 @@ O Sistema de Gerenciamento de Biblioteca foi desenvolvido para facilitar o proce
 == 📦 Tecnologias Utilizadas
 
 === ☕ Frontend
-* **Angular**: Framework utilizado para o desenvolvimento da interface de usuário, permitindo uma aplicação interativa e responsiva.*
+* **Angular**: Framework utilizado para o desenvolvimento da interface de usuário, permitindo uma aplicação interativa e responsiva.
+
 === 🏛 Backend
-* **Spring Boot (Java)**: Framework utilizado para o desenvolvimento da API, que gerencia os empréstimos, os livros e os usuários.*
+* **Spring Boot (Java)**: Framework utilizado para o desenvolvimento da API, que gerencia os empréstimos, os livros e os usuários.
+
 === 🗄 Banco de Dados
-* **MySQL**: Banco de dados relacional utilizado para armazenar informações sobre empréstimos, usuários e livros.*
+* **MySQL**: Banco de dados relacional utilizado para armazenar informações sobre empréstimos, usuários e livros.
+
 === 🔐 Autenticação
-* **JWT (JSON Web Tokens)**: Utilizado para garantir a segurança no processo de autenticação e autorização de usuários.*
+* **JWT (JSON Web Tokens)**: Utilizado para garantir a segurança no processo de autenticação e autorização de usuários.
 
 == 🎮 Como Executar
 Siga os passos abaixo para executar o projeto em sua máquina local:
